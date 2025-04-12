@@ -210,8 +210,6 @@ class CustomPlayer(Entity):
 
 
                 stamina_timeout = None
-        if key == 'debug':
-            print(self.x)
         # - Normal
         if key == 'space':
             self.jump()
