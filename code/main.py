@@ -135,8 +135,6 @@ input_handler.bind('gamepad a', 'space')
 
 input_handler.bind('shift', 'sprint')
 
-input_handler.bind('g', 'debug')
-
 def animation_loop():
 	# - Animation Timeouts
 	an_fountain_timeout = 0.3
